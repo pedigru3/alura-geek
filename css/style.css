@@ -43,6 +43,10 @@
        padding-left: 50px;
 }
 
+.login:hover {
+    background: var(--azul-20);
+}
+
 .lupa {
     width: 1.2rem;
 }
@@ -78,6 +82,10 @@
     color: var(--branco);
     background: var(--azul-100);
     width: 90px;
+}
+
+.banner-link:hover {
+    background: var(--azul-80);
 }
 
 .produtos-cabecalho {
@@ -196,11 +204,13 @@ footer {
     border: none;
     border-radius: 4px;
 
-    margin: 5px auto;
+    margin: 5px 10px;
     
     font-size: 16px;
     color: var(--preto-100);
     line-height: 20px;
+
+    outline: none;
 }
 
 .formulario textarea {
@@ -218,6 +228,9 @@ footer {
     font-family: var(--raleway);
     font-size: 1em;
     color: #A2A2A2;
+
+    resize: none;
+    outline: none;
 }
 
 .formulario .formulario-botao {
