@@ -16,17 +16,24 @@
     <header>
         <div class="cabecalho container">
             <img class="logo" src="img/Logo-alura-geek.svg" alt="Logo da Alura">
-            <input type="search" class="barra-pesquisa" value="O que deseja encontrar?">
+            <div class="bg-barra">
+                <input type="search" class="barra-pesquisa" placeholder="O que deseja encontrar?">
+                <a href="#" class="link-lupa-desk"><img src="img/Vectorsearch2.svg"  class="lupa" alt="Lupa de pesquisa"></a>
+            </div>
             <a href="#" class="login botao">Login</a>
             <a href="#" class="link-lupa"><img src="img/Vectorsearch.svg"  class="lupa" alt="Lupa de pesquisa"></a>
         </div>
         <div class="banner">
-            <div class="banner-titulo container"><h1>Dezembro Promocional</h1></div>
-            <div class="banner-subtitulo container"><p>Produtos selecionados com até 33% de desconto</p></div>
-            <a href="#" class="banner-link botao">Ver Consoles</a>
+            <div class="banner-conteudo container">
+                <div class="banner-titulo"><h1>Dezembro Promocional</h1></div>
+                <div class="banner-subtitulo"><p>Produtos selecionados com até 33% de desconto</p></div>
+                <a href="#" class="banner-link botao">Ver Consoles</a>
+            </div>            
         </div>
+
     </header>
     <main>
+       
         <section class="produtos container">
             <div class="produtos-cabecalho">
                 <h2>Star Wars</h2>
@@ -54,6 +61,18 @@
                 </li>
                 <li class="produto-cadastrado">
                     <img src="img/produtoD.png" alt="Produto xyz">
+                    <p class="produto-descricao">Produto XYZ</p>
+                    <p class="produto-preco preco">R$ 60,00</p>
+                    <a class="produto-link link">Ver produto</a>
+                </li>
+                <li class="produto-cadastrado2">
+                    <img src="img/produtoextra1.png" alt="Produto xyz">
+                    <p class="produto-descricao">Produto XYZ</p>
+                    <p class="produto-preco preco">R$ 60,00</p>
+                    <a class="produto-link link">Ver produto</a>
+                </li>
+                <li class="produto-cadastrado2">
+                    <img src="img/produtoextra2.png" alt="Produto xyz">
                     <p class="produto-descricao">Produto XYZ</p>
                     <p class="produto-preco preco">R$ 60,00</p>
                     <a class="produto-link link">Ver produto</a>
@@ -89,6 +108,18 @@
                         <p class="produto-preco preco">R$ 60,00</p>
                         <a class="produto-link link">Ver produto</a>
                     </li>
+                    <li class="produto-cadastrado2">
+                        <img src="img/produtoextra3.png" alt="Produto xyz">
+                        <p class="produto-descricao">Produto XYZ</p>
+                        <p class="produto-preco preco">R$ 60,00</p>
+                        <a class="produto-link link">Ver produto</a>
+                    </li>
+                    <li class="produto-cadastrado2">
+                        <img src="img/produtoextra4.png" alt="Produto xyz">
+                        <p class="produto-descricao">Produto XYZ</p>
+                        <p class="produto-preco preco">R$ 60,00</p>
+                        <a class="produto-link link">Ver produto</a>
+                    </li>
                 </ul>
                 
                 <div class="produtos-cabecalho">
@@ -120,33 +151,47 @@
                             <p class="produto-preco preco">R$ 60,00</p>
                             <a class="produto-link link">Ver produto</a>
                         </li>
+                        <li class="produto-cadastrado2">
+                            <img src="img/produtoextra5.png" alt="Produto xyz">
+                            <p class="produto-descricao">Produto XYZ</p>
+                            <p class="produto-preco preco">R$ 60,00</p>
+                            <a class="produto-link link">Ver produto</a>
+                        </li>
+                        <li class="produto-cadastrado2">
+                            <img src="img/produtoextra6.png" alt="Produto xyz">
+                            <p class="produto-descricao">Produto XYZ</p>
+                            <p class="produto-preco preco">R$ 60,00</p>
+                            <a class="produto-link link">Ver produto</a>
+                        </li>
                     </ul>  
         </section>
     </main>
 
     <footer>
-        <section class="menu-rodape">
-            <img src="img/Logo-alura-geek.svg" alt="Logo da Alura" class="logo-rodape">
-            <ul>
-                <li><a href="#">Quem Somos nós</a></li>
-                <li><a href="#">Política de privacidade</a></li>
-                <li><a href="#">Programa fidelidade</a></li>
-                <li><a href="#">Nossas lojas</a></li>
-                <li><a href="#">Quero ser franqueado</a></li>
-                <li><a href="#">Anuncie aqui</a></li>
-            </ul>
-        </section>
-        <form>
-            <fieldset class="formulario container">
-                <legend>Fale Conosco</legend>
-                <div class="fundo-branco">
-                    <label>Nome</label>
-                    <input class="nome" type="text" id="nome" name="nome">
-                </div>
-                <textarea name="mensagem" id="mensagem">Escreva sua mensagem</textarea> 
-                <input class="formulario-botao" type="submit" value="Enviar Mensagem" class="botao">            
-            </fieldset>
-        </form>
+        <div class="rodape container">
+            <section class="menu-rodape">
+                <img src="img/Logo-alura-geek.svg" alt="Logo da Alura" class="logo-rodape">
+                <ul>
+                    <li><a href="#">Quem Somos nós</a></li>
+                    <li><a href="#">Política de privacidade</a></li>
+                    <li><a href="#">Programa fidelidade</a></li>
+                    <li><a href="#">Nossas lojas</a></li>
+                    <li><a href="#">Quero ser franqueado</a></li>
+                    <li><a href="#">Anuncie aqui</a></li>
+                </ul>
+            </section>
+            <form>
+                <fieldset class="formulario">
+                    <legend>Fale Conosco</legend>
+                    <div class="fundo-branco">
+                        <label>Nome</label>
+                        <input class="nome" type="text" id="nome" name="nome">
+                    </div>
+                    <textarea name="mensagem" id="mensagem">Escreva sua mensagem</textarea> 
+                    <input class="formulario-botao" type="submit" value="Enviar Mensagem" class="botao">            
+                </fieldset>
+            </form>
+        </div>
         <section class="desenvolvedor">
             <p>Desenvolvido por Felipe Ferreira</br>2022</p>
         </section>

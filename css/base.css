@@ -14,8 +14,14 @@ body {
 }
 
 .container{
-    padding-left: 6%;
-    padding-right: 6%;
+    position: relative;
+    width: 100%;
+    max-width: 1400px;
+
+    margin: 0 auto;
+
+    padding: 0 1.5rem;
+    box-sizing: border-box;
 }
 
 .botao {
