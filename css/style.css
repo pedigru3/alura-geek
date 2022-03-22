@@ -6,7 +6,7 @@
     margin-bottom: 2rem;
 }
 
-.logo {
+.cabecalho__logo {
     width: 100px;
 }
 
@@ -280,7 +280,7 @@ footer {
         display: flex;
     }
 
-    .logo {
+    .cabecalho__logo {
         width: 120px;
     }
 
@@ -339,7 +339,7 @@ footer {
         justify-content: flex-start;
     }
     
-    .logo {
+    .cabecalho__logo {
         width: 176px;
         margin-right: 32px;
     }
