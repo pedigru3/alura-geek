@@ -10,31 +10,40 @@
     width: 100px;
 }
 
-.bg-barra {
+.barra {
     display: none;
-    justify-content: space-between;
-    align-items: center;
+    position: relative;
+}
 
-    width: 272px;
-    height: 40px;
-    background-color: #F5F5F5;
-    border-radius: 20px;
-
-    padding-right: 1.5rem;
+.link-lupa-desk {
+    position: absolute;
+    top: 2px;
+    right: 20px;
 }
 
 .barra-pesquisa {
-    display: none;
-    width: 272px;
+    width: 393px;
+    height: 40px;
+    border-radius: 20px;
     background-color: #F5F5F5;
 
     padding-left: 1rem;
 
     border: none;
-    outline: none;
+    outline-color: var(--azul-100);
 
     font-family: var(--raleway);
     color: var(--preto-50);
+}
+
+.circulo {
+    padding: 8px;
+    border-radius: 50%;
+    transition: background-color 1s, transform 0.5s;
+}
+
+.circulo:hover {
+    transform: scale(1.2);
 }
 
 .login {
@@ -263,7 +272,7 @@ footer {
         padding: 0 2rem;
     }
 
-    .barra-pesquisa {
+    .barra {
         display: block;
     }
 
