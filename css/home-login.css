@@ -1,0 +1,73 @@
+.main-login {
+    background-color: #F5F5F5;
+    height: 500px;
+}
+
+.form-login {
+    padding: 6rem 3rem 5rem;
+}
+
+.form-login fieldset {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-login legend {
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    color: var(--preto-100);
+
+    margin-bottom: 0.5em;
+}
+
+.form-login__email {
+    padding: 20px;
+    box-sizing: border-box;
+
+    margin-top: 10px;
+    height: 40px;
+    width: 275px;
+    border-radius: 4px;
+    outline-color: var(--azul-100);
+    
+    border: none;
+
+    box-shadow: 0px 1px 1px rgb(218, 216, 216);
+}
+
+.form-login__senha {
+    padding: 20px;
+    box-sizing: border-box;
+
+    margin-top: 20px;
+    height: 40px;
+    width: 275px;
+    border-radius: 4px;
+    outline-color: var(--azul-100);
+
+    border: none;
+
+    box-shadow: 0px 1px 1px rgb(218, 216, 216);
+}
+
+.form-login__botao {
+    margin-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: var(--azul-100);
+    color: white;
+}
+
+@media screen and (min-width:1024px) {
+    .form-login legend {
+        font-size: 18px;
+    }
+
+    .form-login__email, .form-login__senha, .form-login__botao {
+        width: 423px;
+        height: 63.13px;
+        font-size: 16px;
+    }
+}

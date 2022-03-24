@@ -1,0 +1,122 @@
+.main-produtos {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background: var(--fundo-cinza);
+}
+.produto-selecionado__img {
+    width: 100vw;
+    height: 192px;
+    object-fit: cover;
+    margin: 0 -1.5rem;
+}
+
+.produto-selecionado__titulo {
+    margin-top: 0.5em;
+    font-size: 22px;
+}
+
+.produto-selecionado__preco {
+    font-size: 16px;
+    font-weight: 700;
+
+    margin-top: 0.5em;
+}
+
+.produto-selecionado__descricao {
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+}
+
+.produtos {
+    margin-bottom: 1rem;
+}
+
+.produtos-cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1.3rem 0 1rem;
+}
+
+.lista-produtos {
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: space-between;
+}
+
+.produtos-cabecalho h2 {
+    color: var(--preto-100);
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.produto-cadastrado {
+    display: flex;
+    flex-direction: column;
+    width: 47%;
+}
+
+.produto-cadastrado2 {
+    display: none;
+}
+
+.produto-descricao {
+    margin-top: 0.5em;
+}
+
+.produto-preco {
+    margin-top: 0.5em;
+}
+
+.produto-link {
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+}
+
+@media screen and (min-width:768px) {
+   .produto-selecionado {
+       display: flex;
+       margin-top: 2rem;
+       margin-bottom: 2rem;
+       
+   }
+
+    .produto-selecionado__img {
+       width: 254px;
+       height: 180px;
+       margin: 0 1rem 0 0;
+   }
+   
+    .produto-cadastrado {
+        width: 23%;
+    }    
+}
+
+@media screen and (min-width:1024px) {
+    .produto-selecionado {
+        align-items: center;
+    }
+
+    .produto-selecionado__img {
+        width: 560px;
+        height: 403px;
+        margin: 0 1rem 0 0;
+    }
+
+    .produto-selecionado__titulo {
+        font-size: 52px;
+        font-weight: 500;
+    }
+
+    .produto-cadastrado {
+        width: 16%;
+    }
+
+    .produto-cadastrado2 {
+        display: flex;
+        flex-direction: column;
+        width: 16%;
+    }
+}

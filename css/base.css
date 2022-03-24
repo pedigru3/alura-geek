@@ -6,6 +6,7 @@
     --preto-100: #464646;
     --azul-10: #EAF2FD;
     --preto-50: #A2A2A2;
+    --fundo-cinza: #F5F5F5;
 
     --raleway: "raleway", sans-serif;
 }
@@ -13,6 +14,21 @@
 body {
     font-family: "raleway", sans-serif;
     font-size: 14px;
+}
+
+.tablet {
+    display: none;
+}
+
+.desktop {
+    display: none;
+}
+
+p {
+    font-family: "raleway", sans-serif;
+    font-size: 14px;
+    line-height: 16.44px;
+    color: var(--preto-100);
 }
 
 .container{
@@ -33,6 +49,31 @@ body {
     font-size: 0.9rem;
 }
 
+.btn--border {
+    color: var(--azul-100);
+    padding: 1em; 
+    font-weight: 500;
+    font-size: 0.9rem;
+    background: transparent;
+
+    border: 1px solid var(--azul-100);
+}
+
+.btn--blue {
+    background: var(--azul-100);
+    color: white;
+    padding: 1em; 
+    font-weight: 500;
+    font-size: 0.9rem;
+
+    border: none;
+}
+
+.btn--blue:hover {
+    background: var(--azul-80);
+    cursor: pointer;
+}
+
 .preco {
     color: var(--preto-100);
     font-weight: 700;
@@ -44,10 +85,22 @@ body {
     font-weight: 700;
 } 
 
-form {
+.formulario-rodape {
     background-color: var(--azul-10);
 }
 
 footer {
     font-family: var(--raleway)
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        padding: 0 2rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .container {
+        padding: 0 3rem;
+    }
 }
