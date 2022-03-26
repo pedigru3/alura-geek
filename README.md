@@ -11,4 +11,8 @@ Foi simulado um ambiente real de trabalho, e nos dado o prazo de 4 semanas para 
 </ul>
 <p>É muito importante que o site seja responsivo para dar aos clientes a facilidade de comprar através de dispositivos mobiles.</p>
 <h2>Semana 1</h2>
-<p>Desenvolvendo layout responsivo da primeira página com base no modelo do Figma. Deploy: https://pedigru3.github.io/alura-geek/</p>
+<p>Desenvolvido layout responsivo da primeira página com base no modelo do Figma.</p>
+<h2>Semana 2 (<i>Em andamento</i>)</h2>
+<p>Desenvolvendo demais páginas do site com base no modelo do Figma.</p>
+<h2>Deploy</h2>
+<p>https://pedigru3.github.io/alura-geek/</p>
