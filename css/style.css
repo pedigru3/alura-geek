@@ -1,65 +1,3 @@
-.cabecalho {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-}
-
-.cabecalho__logo {
-    width: 100px;
-}
-
-.barra {
-    display: none;
-    position: relative;
-}
-
-.link-lupa-desk {
-    position: absolute;
-    top: 2px;
-    right: 20px;
-}
-
-.barra-pesquisa {
-    width: 393px;
-    height: 40px;
-    border-radius: 20px;
-    background-color: #F5F5F5;
-
-    padding-left: 1rem;
-
-    border: none;
-    outline-color: var(--azul-100);
-
-    font-family: var(--raleway);
-    color: var(--preto-50);
-}
-
-.circulo {
-    padding: 8px;
-    border-radius: 50%;
-    transition: background-color 1s, transform 0.5s;
-}
-
-.circulo:hover {
-    transform: scale(1.2);
-}
-
-.login {
-       color: var(--azul-100);
-       padding-right: 50px;
-       padding-left: 50px;
-}
-
-.login:hover {
-    background: var(--azul-20);
-}
-
-.lupa {
-    width: 1.2rem;
-}
-
 .banner {
     display: flex;
     flex-direction: column;
@@ -97,11 +35,16 @@
     background: var(--azul-80);
 }
 
+.produtos {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
 .produtos-cabecalho {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 1.3rem 0 1rem;
+    padding: 1.3rem 0 1rem;
 }
 
 .lista-produtos {
@@ -268,22 +211,6 @@ footer {
 }
 
 @media screen and (min-width: 768px) {
-    .barra {
-        display: block;
-    }
-
-    .bg-barra {
-        display: flex;
-    }
-
-    .cabecalho__logo {
-        width: 120px;
-    }
-
-    .link-lupa {
-        display: none;
-    }
-
     .banner {
         background-image: url(../img/Herobg-home2.png);
         height: 352px;
@@ -307,8 +234,6 @@ footer {
 
     .rodape {
         display: flex;
-        
-        margin-top: 2rem;
     }
 
     .menu-rodape {

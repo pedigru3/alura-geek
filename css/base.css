@@ -2,10 +2,12 @@
     --azul-100: #2A7AE4;
     --azul-80: #5595E9;
     --azul-20: #D4E4FA;
+    --azul-10: #EAF2FD;
     --branco: white;
     --preto-100: #464646;
-    --azul-10: #EAF2FD;
+    --preto-80: #6B6B6B;    
     --preto-50: #A2A2A2;
+    --preto-30: #C8C8C8;
     --fundo-cinza: #F5F5F5;
 
     --raleway: "raleway", sans-serif;
@@ -14,6 +16,10 @@
 body {
     font-family: "raleway", sans-serif;
     font-size: 14px;
+}
+
+main {
+    background: var(--fundo-cinza);
 }
 
 .tablet {
@@ -57,6 +63,11 @@ p {
     background: transparent;
 
     border: 1px solid var(--azul-100);
+}
+
+.btn--border:hover {
+    background: var(--azul-20);
+    cursor: pointer;
 }
 
 .btn--blue {

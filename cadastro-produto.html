@@ -32,16 +32,30 @@
     </header>
 
     <main>
-        <section class="new-product">
-            <h2 class="new-product__title">Adicionar novo produto</h2>
+        <section class="new-product container">
             <div>
-                <div class="new-product__drop">
-                    <img class="" src="./img/img.svg" alt="">
-                    <p class=>Adicionar uma imagem para o produto</p>
+                <h2 class="new-product__title">Adicionar novo produto</h2>
+                <div class="new-product__add">
+                    <div class="new-product__drop">
+                        <p class="new-product__description"></p>
+                    </div>
+                    <p class="new-product__ou">Ou</p>
+                    <button class="new-product__btn btn--border"></button>
                 </div>
-                <p class="new-product__ou">Ou</p>
-                <button class="new-product__btn btn--border"></button>
             </div>
+            <form class="new-product__form">
+                <div class="new-product__form-group">
+                    <input name="product-name" class="new-product__input" placeholder="Meu Produto" id="product-name">
+                    <label for="product-name" class="new-product__label">Nome do produto</label>
+                </div>
+                <div class="new-product__form-group">
+                    <input type="number" class="new-product__input" name="price" placeholder="60,00" id="price">
+                    <label for="price" class="new-product__label" >Preço do Produto</label>                    
+                </div>
+                <label for="product-description"></label>
+                <textarea placeholder="Descrição do produto" name="product-description" id="product-description" class="new-product__textarea"></textarea>
+                <button href="cadastro-produto.html" class="new-product__form__btn btn--blue">Adicionar Produto</button>
+            </form>
         </section>
 
     </main>
